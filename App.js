@@ -141,6 +141,7 @@ const App = () => {
             ))}
           </View>
         
+          {/* Cards das versões dos carros com margem */}
           <View style={styles.creatorsContainer}>
             <Text style={styles.creatorsTitle}>Versões:</Text>
             {selectedCar.version.map((version, index) => (
